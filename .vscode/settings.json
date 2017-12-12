@@ -1,0 +1,9 @@
+{
+    "codemetrics.basics.CodeLensEnabled": false,
+    "codemetrics.basics.EnabledForVue": false,
+    "codemetrics.basics.EnabledForHTML": false,
+    "codemetrics.basics.EnabledForLua": false,
+    "codemetrics.basics.EnabledForJS": false,
+    "codemetrics.basics.EnabledForJSX": false,
+    "codemetrics.basics.EnabledForTS": false
+}
