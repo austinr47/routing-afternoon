@@ -18,12 +18,11 @@ export default class ClassList extends Component {
   
 
   render() {
-    let students = this.state.students.map((e) => {
+    let students = this.state.students.map((e, i) => {
       return (
-        <div key={e.Email}>
+        <div key={i}>
           <h3>
-            <p>{e.first_name}</p>
-            <p>{e.last_name}</p>
+            <p>{e.first_name} {e.last_name}</p>
           </h3>
         </div>
       )
