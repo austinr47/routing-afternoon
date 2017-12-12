@@ -22,9 +22,11 @@ export default class ClassList extends Component {
     let students = this.state.students.map((e, i) => {
       return (
         <div key={i}>
-          <Link to={`/student/${e.id}`}><h3>
+          <Link to={`/student/${e.id}`}>
+          <h3>
             <p>{e.first_name} {e.last_name}</p>
-          </h3></Link>
+          </h3>
+          </Link>
         </div>
       )
     })
