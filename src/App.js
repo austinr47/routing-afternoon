@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Routes from './routes';
+import {NavLink} from 'react-router-dom';
 
 export default class App extends Component {
 
@@ -9,11 +10,11 @@ export default class App extends Component {
                <nav className='nav'>
                    <div>WestSide University</div> 
                    <div className='link-wrap'>
-                        <div className='links'>Home</div>
-                        <div className='links'>About</div> 
+                        <NavLink to='/' className='links'>Home</NavLink>
+                        <NavLink to='/about' className='links'>About</NavLink> 
                    </div>
                </nav>
-                {Routes}
+              {Routes}
            </div> 
         )
     }
